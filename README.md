@@ -8,6 +8,8 @@ Develop a job portal website that allows recruiters to post and manage job listi
 
 # Structure
 Project structure follow a modular MVC (Model-View-Controller) pattern. Below is a textual representation of the structure:
+
+
 ![project Structure](./public/uploads/image.png)
 
 
