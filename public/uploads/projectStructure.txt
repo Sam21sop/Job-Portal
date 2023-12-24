@@ -1,0 +1,37 @@
+# Structure
+Project structure follow a modular MVC (Model-View-Controller) pattern. Below is a textual representation of the structure:
+
+    job-portal/
+        |-- controllers/
+        |       |-- authController.js
+        |       |-- jobController.js
+        |-- middleware/
+        |       |-- authMiddleware.js
+        |       |-- multerMiddleware.js
+        |-- models/
+        |       |-- User.js
+        |       |-- Job.js
+        |       |-- Applicant.js
+        |-- public/
+        |       |-- styles/
+        |           |-- main.css
+        |       |-- uploads/
+        |-- routes/
+        |       |-- authRoutes.js
+        |       |-- jobRoutes.js
+        |-- views/
+        |       |-- layouts/
+        |           |-- main.ejs
+        |       |-- pages/
+        |           |-- landing.ejs
+        |           |-- jobListings.ejs
+        |           |-- jobDetails.ejs
+        |           |-- applicantList.ejs
+        |           |-- login.ejs
+        |           |-- newJob.ejs
+        |           |-- updateJob.ejs
+        |           |-- 404.ejs
+        |-- server.js
+        |-- package.json
+        |-- .env
+        |-- .gitignore
