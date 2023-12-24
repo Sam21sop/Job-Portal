@@ -1,0 +1,15 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "Job Portal for job seeker to find suitable job",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "job",
+    "Platform"
+  ],
+  "author": "Sopan Bhere",
+  "license": "ISC"
+}
